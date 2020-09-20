@@ -15,6 +15,7 @@
 		112C285B25108704009AA08A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112C285925108704009AA08A /* LaunchScreen.storyboard */; };
 		112C286625108704009AA08A /* MemoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C286525108704009AA08A /* MemoPadTests.swift */; };
 		112C287125108704009AA08A /* MemoPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C287025108704009AA08A /* MemoPadUITests.swift */; };
+		112C287F2510876A009AA08A /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C287E2510876A009AA08A /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		112C286C25108704009AA08A /* MemoPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112C287025108704009AA08A /* MemoPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadUITests.swift; sourceTree = "<group>"; };
 		112C287225108704009AA08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112C287E2510876A009AA08A /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				112C285725108704009AA08A /* Assets.xcassets */,
 				112C285925108704009AA08A /* LaunchScreen.storyboard */,
 				112C285C25108704009AA08A /* Info.plist */,
+				112C287E2510876A009AA08A /* MemoViewController.swift */,
 			);
 			path = MemoPad;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112C287F2510876A009AA08A /* MemoViewController.swift in Sources */,
 				112C2853251086FE009AA08A /* ViewController.swift in Sources */,
 				112C284F251086FE009AA08A /* AppDelegate.swift in Sources */,
 				112C2851251086FE009AA08A /* SceneDelegate.swift in Sources */,
